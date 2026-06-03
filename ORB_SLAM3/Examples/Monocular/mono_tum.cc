@@ -151,6 +151,9 @@ int main(int argc, char **argv)
     // Save camera trajectory
     SLAM.SaveKeyFrameTrajectoryTUM("KeyFrameTrajectory.txt");
 
+    cout << endl << "Press ENTER to exit and close the Viewer..." << endl;
+    cin.get();
+
     return 0;
 }
 
