@@ -7,6 +7,12 @@ This repository contains a fully integrated workspace for running **ORB-SLAM3** 
 *   `ORB_SLAM3/`: The core ORB-SLAM3 library, modified to compile smoothly on Ubuntu 22.04 (GCC 11, C++14) without `libgdal` transitive linker errors.
 *   `ros2_ws/src/ORB_SLAM3_ROS2/`: The ROS 2 Humble wrapper for ORB-SLAM3.
 
+## Visuals
+Here are some screenshots of the ORB-SLAM3 system actively tracking features on the OmniSLAM dataset:
+
+![Tracking Features 1](docs/tracking1.png)
+![Tracking Features 2](docs/tracking2.png)
+
 ## Prerequisites
 
 *   Ubuntu 22.04
