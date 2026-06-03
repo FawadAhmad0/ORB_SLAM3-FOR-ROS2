@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-cac02e79e2e03bfaa652.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "orbslam3",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "mono::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mono-b99ae3346231fa25162b.json",
+					"name" : "mono",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "orbslam3_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-orbslam3_uninstall-a2e87e0c229cf177ae84.json",
+					"name" : "orbslam3_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rgbd::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rgbd-8e0d4370b289260831b0.json",
+					"name" : "rgbd",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stereo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stereo-403d8dc03ab5326540f8.json",
+					"name" : "stereo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stereo-inertial::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stereo-inertial-15e4e8262413b473acd7.json",
+					"name" : "stereo-inertial",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-ac3cb12d92f38ab790f5.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/romi/fawad/ros2_ws/build/orbslam3",
+		"source" : "/home/romi/fawad/ros2_ws/src/ORB_SLAM3_ROS2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
